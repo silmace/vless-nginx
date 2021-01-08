@@ -45,7 +45,6 @@ fi
 # install requirements
 ${sudoCmd} ${systemPackage} update
 ${sudoCmd} ${systemPackage} install software-properties-common -y -q
-${sudoCmd} add-apt-repository ppa:ondrej/nginx-mainline -y
 ${sudoCmd} ${systemPackage} update
 ${sudoCmd} ${systemPackage} install wget coreutils nginx-extras unzip -y -q
 ${sudoCmd} ${systemPackage} install nginx -y -q -f
