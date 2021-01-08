@@ -1,12 +1,7 @@
-# VLESS NGINX 脚本
-~~本脚本为示范性脚本，仅供体验 VLESS 使用。~~ <br>
-新脚本已推出，请使用 [@phlinhng/v2ray-tcp-tls-web](https://github.com/phlinhng/v2ray-tcp-tls-web/wiki) 部署 VLESS。<br>
-本脚本将不再维护<br>
-
 # 使用说明
 + 初次使用
 ```sh
-bash <(curl -sL https://raw.githubusercontent.com/phlinhng/vless-nginx/master/start.sh) && bash ~/vless.sh
+bash <(curl -sL https://raw.githubusercontent.com/silmace/vless-nginx/master/start.sh) && bash ~/vless.sh
 ```
 + 再次呼叫
 ```sh
